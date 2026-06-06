@@ -12,7 +12,7 @@ int main()
         digit = bin % 10;      
         deci = deci + digit * pow;
         pow = pow * 2;
-        binary = bin / 10;
+        bin = bin / 10;
     }
 
     printf("Decimal = %d", deci);
