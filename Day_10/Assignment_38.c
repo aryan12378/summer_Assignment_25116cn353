@@ -9,11 +9,11 @@ int main()
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
     {
-        for (k = 0; k < n; k++)
+        for (k = 0; k < i - 1; k++)
         {
             printf(" ");
         }
-        for (j = 2*n - 1; j >= 1; j++)
+        for (j = 2*(n - i) + 1; j >= 1; j--)
         {
             printf("*");
         }
