@@ -11,7 +11,7 @@ int main(){
        scanf("%d", &ch);
        if (ch==5)
        {
-        printf("exiting program");
+        printf("exiting program\n");
         break;
        }
        if (ch>=1&&ch<=4)
@@ -46,7 +46,7 @@ int main(){
 
        
        default: 
-       printf("INVALID!!!!");
+       printf("INVALID!!!!\n");
        break;
         
        }
